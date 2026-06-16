@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [v3.2.0](https://github.com/shunrises/shunrises.dev/releases/tag/v3.2.0) | 2026-06-16
+
+### Features
+- giscus 댓글 추가 및 MDX 설정 수정 [ee8524b](https://github.com/shunrises/shunrises.dev/commit/ee8524b)
+### Other
+- alt typo [e229195](https://github.com/shunrises/shunrises.dev/commit/e229195)
+
 ## [v3.1.3](https://github.com/shunrises/shunrises.dev/releases/tag/v3.1.3) | 2026-06-16
 
 ### Bug Fixes
