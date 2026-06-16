@@ -81,7 +81,11 @@
     "onlyBuiltDependencies": [
       "esbuild",
       "msw",
-      "sharp"
+      "sharp",
+      "workerd"
+    ],
+    "approvedBuilds": [
+      "workerd"
     ]
   },
   "devDependencies": {
@@ -94,6 +98,7 @@
     "globals": "^17.6.0",
     "husky": "^9.1.7",
     "jiti": "^2.6.1",
-    "shadcn": "^4.1.2"
+    "shadcn": "^4.1.2",
+    "wrangler": "^4.100.0"
   }
 }
