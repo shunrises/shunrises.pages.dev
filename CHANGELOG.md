@@ -7,6 +7,10 @@
 ### Other
 - Initial commit [96f2674](https://github.com/shunrises/shunrises.github.io/commit/96f2674)
 
+---
+
+> 이하는 기반 템플릿 [Ryze](https://github.com/A58361/ryze)의 변경 이력입니다.
+
 ## [v3.0.0](https://github.com/A58361/Ryze/releases/tag/v3.0.0) | 2026-06-01
 
 ### Features
