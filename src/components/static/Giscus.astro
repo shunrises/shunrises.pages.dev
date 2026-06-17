@@ -11,7 +11,11 @@ const darkTheme = canUseCustomTheme ? new URL("/giscus-dark.css", Astro.url.orig
 
 {
     shouldShowSetupNotice ? (
-        <section class="mt-10 border border-border bg-muted/30 p-6 text-sm text-muted-foreground" aria-label="Comments setup">
+        <section
+            class="mt-10 border border-border bg-muted/30 p-6 text-sm text-muted-foreground"
+            style="border-color: var(--border);"
+            aria-label="Comments setup"
+        >
             <p class="font-medium text-foreground">giscus 설정이 아직 완료되지 않았습니다.</p>
             <p class="mt-2">
                 giscus 설정 페이지에서 생성된 <code>data-repo-id</code>와 <code>data-category-id</code>를
@@ -20,7 +24,8 @@ const darkTheme = canUseCustomTheme ? new URL("/giscus-dark.css", Astro.url.orig
         </section>
     ) : isConfigured && (
         <section
-            class="mt-10 border border-border bg-background p-6"
+            class="mt-14 border-t border-border pt-10"
+            style="border-color: var(--border);"
             aria-label="Comments"
             data-giscus-root
             data-light-theme={lightTheme}
