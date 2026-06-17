@@ -4,9 +4,8 @@ import siteConfig from "@/site-config.json";
 const giscus = siteConfig.giscus;
 const isConfigured = Boolean(giscus.enabled && giscus.repoId && giscus.categoryId);
 const shouldShowSetupNotice = import.meta.env.DEV && !isConfigured;
-const canUseCustomTheme = Astro.url.protocol === "https:";
-const lightTheme = canUseCustomTheme ? new URL("/giscus-light.css", Astro.url.origin).toString() : "light";
-const darkTheme = canUseCustomTheme ? new URL("/giscus-dark.css", Astro.url.origin).toString() : "dark";
+const lightTheme = giscus.theme || "noborder_light";
+const darkTheme = giscus.darkTheme || "noborder_dark";
 ---
 
 {

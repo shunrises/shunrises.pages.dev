@@ -12,8 +12,8 @@
     "reactionsEnabled": "1",
     "emitMetadata": "0",
     "inputPosition": "bottom",
-    "theme": "https://shunrises.dev/giscus-light.css",
-    "darkTheme": "https://shunrises.dev/giscus-dark.css",
+    "theme": "noborder_light",
+    "darkTheme": "noborder_dark",
     "lang": "ko",
     "loading": "lazy"
   },
