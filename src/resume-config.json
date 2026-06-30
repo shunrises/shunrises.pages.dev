@@ -94,10 +94,10 @@
     {
       "institution": "Hongik University",
       "degree": "Bachelor of Engineering",
-      "fieldOfStudy": "Computer Science",
+      "fieldOfStudy": "Computer Engineering",
       "startDate": "2020-03-01",
       "endDate": "Present",
-      "grade": "Senior",
+      "grade": "",
       "coursework": ["GDSC Hongik University Flutter Core Member (Mentor), 2022"]
     }
   ],
